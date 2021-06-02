@@ -1,0 +1,133 @@
+body {
+  animation: animate__fadeIn;
+animation-duration: 2s;
+    text-align: center;
+    height: 95.2vh;
+    margin:0;
+    padding: 0;
+    background: rgb(6,0,110);
+background: linear-gradient(160deg, rgba(6,0,110,1) 0%, rgba(9,9,121,1) 40%, rgba(0,146,176,1) 100%);
+
+}
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#calc{
+  color: aquamarine;
+  letter-spacing: 1.5rem;
+  font-size: 4rem;
+ font-family: 'SEGA LOGO FONT';
+ font-weight: 500;
+  border-bottom:beige 2px solid;
+  padding-bottom: 1%;
+  text-shadow: 2px 2px 20px blue;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+.clac{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#i1{
+  background: rgba(116, 248, 193, 0.753);
+  border:none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  
+  
+}
+#btn{
+   color: cornsilk;
+  font-size: 6rem;;
+  background: none;
+  border:none;
+  
+}
+#btn:hover{
+  cursor: pointer;
+  border: cornsilk 2px solid;
+  border-radius: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: rgba(255, 255, 255, 0.062);
+  transition: 0.5s;
+}
+#i2{
+  background: rgba(116, 248, 193, 0.753);
+  border:none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+#sel{
+  color: rgb(179, 179, 179);
+  background:rgba(0, 119, 255, 0);
+  border: none;
+   appearance: none;
+  font-size:3rem;
+  text-align: center;
+  margin: 20px;
+}
+#sel:hover{
+  cursor: pointer;
+  border: cornsilk 2px solid;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.062);
+  transition: 0.1s;
+}
+
+#i1:hover {
+     cursor: pointer;
+     background: rgba(160, 253, 214, 0.753);
+     border-radius: 10px;
+     transition: 0.2s;
+}
+
+#i2:hover {
+  cursor: pointer;
+     background: rgba(160, 253, 214, 0.753);
+     border-radius: 10px;
+     transition: 0.2s;
+}
+
+p{
+color: cornsilk;
+font-size: 2rem;
+animation: animate__backInDown;
+  animation-duration: 0.5s;
+
+
+
+
+}
+
+.meu{
+  color: aliceblue;
+  font-size: 6rem;
+  border: solid white 2px;
+  margin-left:20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  animation: animate__backInDown;
+  animation-duration: 0.5s;
+}
+h5{
+  color: cornsilk;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
